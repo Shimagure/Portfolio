@@ -30,9 +30,9 @@ export default function App() {
         <p>End User Computing Technician · Microsoft 365 · Active Directory</p>
 
         <div className="hero-actions">
-          <a href="/Chiquito-Wilson-DC_Resume.pdf" className="btn">Download Resume</a>
+          <a href="/Chiquito-Wilson-DC_Resume.pdf" className="btn" download>Download Resume</a>
           <a href="https://github.com/Shimagure" target="_blank">
-            <Github size={22} />
+            <Github size={23} />
           </a>
         </div>
       </motion.header>
@@ -88,8 +88,8 @@ export default function App() {
         <div className="timeline">
           {[
             "End User Computing Technician — Solaire Resort & Casino (2023–Present)",
-            "Web Design / Networking Trainee — BSU (2022)",
-            "Programmer / Researcher — BSU (2021–2022)",
+            "Web Design / Networking Trainee — BSAU (2022)",
+            "Programmer / Researcher — BSAU (2021–2022)",
             "Freelance Computer Technician — SINHS (2018–2020)"
           ].map((role, i) => (
             <motion.div
