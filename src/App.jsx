@@ -30,7 +30,7 @@ export default function App() {
         <p>End User Computing Technician · Microsoft 365 · Active Directory</p>
 
         <div className="hero-actions">
-          <a href="/resume.pdf" className="btn">Download Resume</a>
+          <a href="/Chiquito-Wilson-DC_Resume.pdf" className="btn">Download Resume</a>
           <a href="https://github.com/Shimagure" target="_blank">
             <Github size={22} />
           </a>
