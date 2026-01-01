@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #0f1115;
+  color: #e6e6e6;
+  font-family: Inter, system-ui;
+}
+
+.container {
+  padding-bottom: 3rem;
+}
+
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  border-bottom: 1px solid #1a1d24;
+}
+
+.hero p { color: #8a8f98; }
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: #1a1d24;
+  color: #e6e6e6;
+  text-decoration: none;
+  border: 1px solid #2a2e38;
+}
+
+.card {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #1a1d24;
+  padding: 2rem;
+  border-radius: 14px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 0.6rem;
+}
+
+.skills span {
+  background: #0f1115;
+  padding: 0.6rem;
+  border-radius: 6px;
+  text-align: center;
+  color: #8a8f98;
+}
+
+/* NAVBAR */
+.nav {
+  position: sticky;
+  top: 0;
+  background: #0f1115;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  z-index: 10;
+  border-bottom: 1px solid #1a1d24;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  color: #8a8f98;
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.nav button:hover {
+  color: #e6e6e6;
+}
+
+/* TIMELINE */
+.timeline {
+  border-left: 2px solid #2a2e38;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.timeline-item {
+  margin-bottom: 1.2rem;
+  padding-left: 0.5rem;
+  color: #e6e6e6;
+}
+
